@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1{
+    font-size: 1.8em;
+    margin-bottom: 0em;
+    font-weight: normal;
+    font-family: 'roboto', sans-serif;
+}
+h2{
+    font-size: 1.2em;
+    margin-bottom: 0em;
+    font-weight: normal;
+    margin-bottom: 4em;
+}
+h3{
+    font-size: 1.4em;
+    margin-bottom: 0.1em;
+    font-weight: normal;
+}
+h4{
+    font-size: 0.8em;
+    font-weight: normal;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    color: #0F0F0F;
+}
+span{
+    font-size: 1em;
+    font-weight: normal;
+}
+a:link{
+    color: blue;
+}
+a:link:after{
+    background-image: url(linkout.png);
+    background-size: 0.5em 0.5em;
+    display: inline-block;
+    width: 0.5em;
+    height: 0.5em;
+    content: "";
+    margin-left: 0.05em;
+    margin-bottom: 0.2em;
+}
+.main{
+    width: 90%;
+    margin:auto;
+    height: 100%;
+}
+
+.content{
+    margin: auto;
+    margin-top: 7em;
+    width: 100%;
+}
+@media (min-width: 650px){
+    .content{
+        width: 600px;
+    }
+
+}
+a:visited{
+    color:blue;
+}
